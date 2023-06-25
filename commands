@@ -1,0 +1,5 @@
+make clean 
+tar czvf assignment1_easy_2020CS10385.tar.gz *
+cp assignment1_easy_2020CS10385.tar.gz check_scripts
+cd check_scripts
+bash check.sh assignment1_easy_2020CS10385.tar.gz
